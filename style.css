@@ -461,9 +461,57 @@ fieldset:hover{
     margin: 10px 0;
     font-size: 14px;
 }
-/* .every #list{
-    background-color: aquamarine;
-} */
+footer{
+    padding: 80px 0;
+    background-color: #26528F;
+}
+.mainfooter{
+    margin: 0 100px ;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    gap: 20px;
+   
+
+}
+.line{
+    margin-top: 60px;
+}
+.footerbox{
+    width: 100%;
+}
+.mainfooter h5{
+    font-size: 13px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.mainfooter p{
+    font-size: 14px;
+}
+.mim i{
+    padding: 5px;
+}
+.mim{
+    margin-left: 20px;
+}
+.icon8{
+   
+}
+.icon8 i{
+    background-color: rgba(0, 0, 0, 0.164);
+    padding: 5px 5px;
+    margin-left: 5px;
+}
+.dag{
+    padding-bottom: 80px;
+}
+footer #last{
+    text-align: center;
+    color: white;
+   position: relative;
+   top: 37px;
+}
 /* 2nd responssive work */
 @media screen  and (max-width:688px){
     .mainsection1{
@@ -526,7 +574,17 @@ fieldset:hover{
        
        
     }
+    .mainfooter{
+      
+        display: block;
+        text-align: center;
+       
+       
     
+    }
+    .footerbox{
+        margin-bottom: 30px;
+    }
     
 }
 @media screen  and (min-width:689px) and (max-width:988px){
@@ -586,5 +644,14 @@ fieldset:hover{
         margin: 0 90px;
        
        
+    }
+    .mainfooter{
+       
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+      
+     
+       
+    
     }
 }
